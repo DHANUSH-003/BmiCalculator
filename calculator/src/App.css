@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #535c;
+  
+
+}
+.bmi-calculator{
+  width: 800px;
+  height: 500px;
+  padding: 20px;
+  background-color: #fff;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0,0.1 );
+}
+.box{
+  width: 350px;
+  background-image: url("assets/gym2.png");
+  background-repeat: no-repeat;
+}
+h1{
+  text-transform: uppercase;
+  color: rgb(31, 26, 31);
+  margin: 20px 0;
+  font-size: 30px;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  color: rgb(111, 102, 102);
+}
+.input-height{
+  padding: 8px;
+  margin-top: 8px;
+  width: 350px;
+}
+
+.cal{
+  color: white;
+  background-color: rgb(40, 109, 235);
+  border: none;
+  padding: 10px 20px; 
+  margin-top: 25px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.clear{
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 10px 20px; 
+  font-size: 15px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.clear:hover{
+  background-color: rgb(225, 9, 9);
+ transition: 0.3s;
+}
+.result{
+  width: 350px;
+  border: 2px solid rgb(40, 109, 235);
+  margin-top: 25px;
+  padding: 15px;
+}
+.bmi{
+  color: rgb(40, 109, 235);
+  font-weight: 700;
+}
+.cal:hover{
+  background-color: rgb(28, 98, 227);
+  transition: 0.3s;
+}
+.weight{
+  color: rgb(111, 102, 102);
+  margin-top: 5px;
+  font-size: 15px;
+}
+.error{
+  color: rgb(247, 85, 85);
+  font-size: 15px;
+  margin-top: 10px;
+}
